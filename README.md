@@ -1,46 +1,77 @@
-# Flag Quiz App
 
-Flag Quiz is a simple Flutter app that allows users to guess the country name based on its flag. The app presents a random flag, along with three other options, and users can select the correct country name from the options.
+# Flagle Telegram Mini-App
 
-## Features
-
-- Randomly generates flag images for quiz questions.
-- Presents four options for the user to choose from.
-- Keeps track of the user's score, increasing it for correct answers and decreasing it for incorrect ones.
-- Provides a "Next Question" button to move on to the next quiz item.
+Flagle is a Telegram Mini-App built using Flutter. It offers users a fun and interactive experience by testing their knowledge of world flags through a quiz game .
 
 ## Getting Started
 
-To get started with the Flag Quiz app, follow these steps:
+Follow these steps to get started with the Flagle Telegram Mini-App:
 
-1. Clone this repository to your local machine
+### Prerequisites
 
-2. Open the project in your preferred Flutter development environment (e.g., Android Studio, VSCode).
+- [Flutter](https://flutter.dev/docs/get-started/install) installed on your development machine.
+- A compatible code editor (e.g., Visual Studio Code, Android Studio).
 
-3. Run the app on an emulator or physical device:
+### Installation
+
+1. Clone the Flagle repository to your local machine:
 
    ```
-   flutter run
+   git clone https://github.com/RoukayaZaki/Flagle.git
    ```
+
+2. Navigate to the project directory
+
+3. Install the required dependencies using Flutter's package manager:
+
+   ```
+   flutter pub get
+   ```
+
+4. Deploy the app to your preferred hosting platform.
+
+5. Start the app, and your Flagle Telegram Mini-App is ready for use.
+
+## Usage
+
+1. Open your Telegram app and launch the app.
+
+2. Begin playing the flag quiz game by answering questions about world flags.
+
+3. Accumulate points and compete with your friends for the highest score.
+
+
+Enjoy testing your flag knowledge with Flagle!
+
+## Structure
+
+Flagle's Flutter app is organized into several key components:
+
+- **main.dart**: The main entry point of the application, responsible for initializing the app and setting up the theme.
+
+- **get_countries.dart**: Contains flag data, such as flag images and country names.
+
+- **quiz_screen.dart**: Implements the quiz game logic and user interface.
+
 ## Demo
 - [Video](https://photos.app.goo.gl/wFbXkGzm33Sg9Gm78)
 - [Telegram MiniApp](https://t.me/flagle_quiz_bot/flagle)
-## Usage
 
-- Launch the app, and you'll see the main quiz screen.
+## Contributing
 
-- Guess the country name based on the displayed flag.
+Contributions to Flagle are encouraged! If you'd like to contribute to the project, please follow these steps:
 
-- Tap one of the options to submit your answer.
+1. Fork the repository and create a new branch for your feature or bug fix.
 
-- The app will indicate whether your answer is correct or incorrect.
+2. Make your changes, ensuring code quality and adherence to best practices.
 
-- Your score will be displayed and it will change based on your answers.
+3. Write tests to validate the functionality.
 
-- Click the "Next Question" button to move on to the next question or "Skip" to skip some question.
-
-- Enjoy testing your knowledge of countries and their flags!
+4. Submit a pull request with a clear description of your changes and any relevant details.
 
 
-Feel free to modify, enhance, and use this app as you see fit!
+## Contact
 
+For any questions or feedback related to Flagle, please feel free to contact me on Telegram [@GammaV](https://t.me/GammaV)
+
+Happy flag guessing with Flagle!
